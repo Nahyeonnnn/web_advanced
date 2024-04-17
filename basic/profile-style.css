@@ -1,0 +1,113 @@
+.nav-items div {
+    display: inline-block;
+    /* padding-right: 36px; */
+    padding: 1.25rem;
+    /* padding-right: 2.25rem; */
+    text-align: center;
+}
+
+.logo {
+    display: inline-block;
+    padding-right: 4rem;
+    /* padding-right: 16.875rem; */
+}
+
+.nav-items {
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+}
+
+.contact_image {
+    /* padding-right: 160px; */
+    /* padding-right: 10rem; */
+}
+
+nav {
+    padding: 0 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white;
+    position: fixed;
+    top: 0; */
+}
+
+#introduce {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#introduce div {
+    padding: 5rem 0;
+}
+
+.section_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5rem 1rem;
+}
+
+.card_flex img {
+    padding-right: 5rem;
+    padding-bottom: 1rem;
+}
+
+.project_flex {
+    display: flex;
+    /* width: 10rem; */
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    padding-top: 3rem;
+}
+
+.each_project {
+    width: 15rem;
+    box-shadow: 0px 0px 5px #44444444;
+    border-radius: 15px;
+    margin: 1rem;
+}
+
+.each_project h4 {
+    margin: 0;
+    padding: 1rem;
+}
+
+.each_project p {
+    margin: 0;
+    padding: 0 1rem 1rem;
+}
+
+.each_project span {
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+    padding: 0 1rem 1rem;
+}
+
+.each_project span img {
+    padding-right: 1rem;
+}
+
+.project_img {
+    width: 100%;
+}
+
+.footer_contact {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem 0;
+}
+
+.contact_list {
+    display: flex;
+    align-items: center;
+}

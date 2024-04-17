@@ -111,3 +111,12 @@ nav {
     display: flex;
     align-items: center;
 }
+
+#myName {
+    font-weight: bolder;
+  
+    background-image: linear-gradient(to right, blue, skyblue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}

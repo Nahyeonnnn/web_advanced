@@ -3,15 +3,25 @@ body {
     max-width: 1000px;
 }
 
+h2 {
+    margin: 0;
+    font-size: 1.75rem;
+}
+
 .nav-items div {
   display: inline-block;
   padding: 1.25rem;
   text-align: center;
+  color: gray;
 }
 
 .logo {
-    width: 4rem;
+    width: 4.5rem;
   display: inline-block;
+}
+
+.logo img {
+    width: 100%;
 }
 
 .nav-items {
@@ -35,7 +45,7 @@ nav {
 }
 
 #introduce div {
-  padding: 5rem 0;
+  padding: 9rem 0;
 }
 
 .section_flex {
@@ -52,20 +62,35 @@ nav {
   padding: 1rem 0 3rem 0;
 }
 
+.card_flex img {
+    transition: all 0.2s;
+    width: 5rem;
+}
+
+.card_flex img:hover {
+    transform: scale(1.25);
+}
+
 .project_flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 3rem;
+  padding: 1rem 0 5rem;
   gap: 2rem;
 }
 
 .each_project {
-  width: 35vw;
+  width: 15.5rem;
   box-shadow: 0px 0px 5px #44444444;
   border-radius: 15px;
-  max-width: 240px;
+  max-width: 260px;
   min-width: 200px;
+  transition: all 0.2s;
+}
+
+.each_project:hover {
+    box-shadow: 0 0 20px 5px #44444444;
+    /* width: 18rem; */
 }
 
 .each_project h4 {
@@ -85,7 +110,7 @@ nav {
 }
 
 .each_project span img {
-  padding-right: 1rem;
+  padding-right: 0.5rem;
 }
 
 .project_img {
@@ -95,17 +120,35 @@ nav {
 .footer_contact {
   display: flex;
   justify-content: space-between;
-  margin: 2rem 2rem 0;
+  margin: 2rem 0rem 1rem;
 }
 
 .contact_list {
   display: flex;
   align-items: center;
+  gap: 1rem;
 }
 
-#myName {
+.contact_list p {
+    font-size: 12px;
+    color: gray;
+}
+
   font-weight: bolder;
   background-image: linear-gradient(520deg, #eeaec9, #94bbe9);
   background-clip: text;
   color: transparent;
 }
+
+
+footer {
+    width: 90%;
+    margin: auto;
+}
+
+footer > p {
+    text-align: center;
+    margin: 2rem;
+    font-size: 12px;
+}
+

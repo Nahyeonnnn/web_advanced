@@ -134,6 +134,7 @@ nav {
     color: gray;
 }
 
+.gradation {
   font-weight: bolder;
   background-image: linear-gradient(520deg, #eeaec9, #94bbe9);
   background-clip: text;
@@ -152,3 +153,6 @@ footer > p {
     font-size: 12px;
 }
 
+.gradation span {
+    color: gray;
+}

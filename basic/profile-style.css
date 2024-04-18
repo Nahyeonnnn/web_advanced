@@ -5,36 +5,27 @@ body {
 
 .nav-items div {
   display: inline-block;
-  /* padding-right: 36px; */
   padding: 1.25rem;
-  /* padding-right: 2.25rem; */
   text-align: center;
 }
 
 .logo {
+    width: 4rem;
   display: inline-block;
-  padding-right: 4rem;
-  /* padding-right: 16.875rem; */
 }
 
 .nav-items {
-  /* display: inline-block; */
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
 
-/* .contact_image {
-  padding-right: 160px;
-  padding-right: 10rem;
-} */
-
 nav {
-  padding: 0 5rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  padding-top: 1rem;
 }
 
 #introduce {
@@ -60,25 +51,19 @@ nav {
   gap: 2rem;
   padding: 1rem 0 3rem 0;
 }
-/* 
-.card_flex img {
-  padding-right: 5rem;
-  padding-bottom: 1rem;
-} */
 
 .project_flex {
   display: flex;
-  /* width: 10rem; */
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 3rem;
+  gap: 2rem;
 }
 
 .each_project {
   width: 35vw;
   box-shadow: 0px 0px 5px #44444444;
   border-radius: 15px;
-  margin: 1rem;
   max-width: 240px;
   min-width: 200px;
 }
@@ -95,7 +80,6 @@ nav {
 
 .each_project span {
   display: flex;
-  /* width: 100%; */
   align-items: center;
   padding: 0 1rem 1rem;
 }

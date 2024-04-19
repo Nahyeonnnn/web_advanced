@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    .line_break {
+        display: block;
+    /* footer 문구 줄바꿈 */
+    }
+}

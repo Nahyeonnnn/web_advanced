@@ -86,6 +86,7 @@ nav {
   max-width: 260px;
   min-width: 200px;
   transition: all 0.2s;
+  height: 100%;
 }
 
 .each_project:hover {

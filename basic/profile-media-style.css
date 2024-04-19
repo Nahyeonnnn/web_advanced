@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+    #introduce {
+        flex-direction: column-reverse;
+        padding: 6rem 0 10rem;
+        gap: 1rem;
+    }   
+    #introduce div {
+        padding: 0;
+    }
+    #introduce div:first-child {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .line_break {
+        display: block;
+    /* footer 문구 줄바꿈 */
+    }
+    .contact_list p:first-child{
+        display: none;
+    }
+    .contact_list {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+/* header nav 바는 상단 아이템 비율에 맞춰서 적용 */
+@media (max-width: 736px) {
+    .nav-items {
+        display: none;
+    }
+    nav {
+        /* justify-content: space-around; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    .nav-items-moblie {
+        /* width: 100%; */
+        display: flex;
+        grid-column: 1/3;
+    }
+    .nav-items-moblie div {
+        display: inline-block;
+        padding: 10px;
+        text-align: center;
+        color: gray;
+    }
+}

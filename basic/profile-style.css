@@ -156,3 +156,11 @@ footer > p {
 .gradation span {
     color: gray;
 }
+
+.line_break {
+  display: none;
+}
+
+.nav-items-moblie {
+  display: none;
+}
